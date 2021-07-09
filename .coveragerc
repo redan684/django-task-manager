@@ -4,5 +4,6 @@ omit=
     */tests/*
     */staticfiles/*
     */migrations/*
+    /C:/Users/nader/AppData/Roaming/Python/Python39/site-packages/*
     */__init__.py
     
