@@ -157,11 +157,7 @@ EMAIL_PORT=config('EMAIL_PORT')
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'todosite/static')]
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
-django_heroku.settings(locals())
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'todosite/static')]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
