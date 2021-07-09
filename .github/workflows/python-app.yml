@@ -52,6 +52,5 @@ jobs:
         EMAIL_HOST_PASSWORD: ${{secrets.EMAIL_HOST_PASSWORD}}
         EMAIL_USE_TLS: ${{secrets.EMAIL_USE_TLS}}
         EMAIL_PORT: ${{secrets.EMAIL_PORT}}
-
       run: |
         python manage.py test
