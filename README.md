@@ -1,1 +1,1 @@
-# django-task-manager
+[![Python application](https://github.com/redan684/django-task-manager/actions/workflows/python-app.yml/badge.svg)](https://github.com/redan684/django-task-manager/actions/workflows/python-app.yml)  [![codecov](https://codecov.io/gh/redan684/django-task-manager/branch/main/graph/badge.svg?token=ZMRURQ6RXA)](https://codecov.io/gh/redan684/django-task-manager)
